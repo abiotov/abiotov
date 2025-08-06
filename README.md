@@ -1,5 +1,5 @@
 <!-- Profile README for Étienne Tovimafa -->
-<h1 align="center">Étienne Tovimafa</h1>
+<h1 align="center">Etienne Tov</h1>
 <p align="center"><b>Software & AI Engineer</b> — building production-grade intelligent systems</p>
 <p align="center">
   <a href="https://www.linkedin.com/in/etiennetovi">LinkedIn</a> ·
