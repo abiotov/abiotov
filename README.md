@@ -36,6 +36,15 @@ I build **AI agents and multi-agent systems**: LLMs wired to real tools, memory,
 
 ---
 
+### 🧩 What I've built
+
+- **Real-time retrieval for search**: low-latency retrieval and candidate generation over large corpora, with hybrid dense and sparse search.
+- **Summarization**: abstractive and long-document summarization, including map-reduce pipelines for long inputs.
+- **Machine translation**: neural and LLM-based translation, with domain adaptation.
+- **Question answering**: RAG and extractive Q&A over documents and knowledge bases, with retrieval, reranking, and grounded citations.
+
+---
+
 ### ⚙️ How I build agentic retrieval
 
 `Plan the query` → `route to the right source` → `hybrid retrieval (dense + keyword)` → `rerank` → `validate, and retry if needed` → `answer with citations`
