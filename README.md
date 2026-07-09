@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/etiennetovi"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="https://github.com/abiotov"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
-  <img alt="Location" src="https://img.shields.io/badge/Cotonou,%20Benin-2E7D32?style=for-the-badge&logo=googlemaps&logoColor=white">
+  <img alt="Open source" src="https://img.shields.io/badge/Open%20Source%20at%20heart-3DA639?style=for-the-badge&logo=opensourceinitiative&logoColor=white">
 </p>
 
 ---
@@ -66,7 +66,7 @@ Agents earn their extra latency and cost only on multi-part, context-dependent q
 
 **Evals & observability** &nbsp;
 <img alt="LangSmith" src="https://img.shields.io/badge/LangSmith-1C3C3C?style=flat-square">
-<img alt="Ragas" src="https://img.shields.io/badge/Ragas-6C3EF5?style=flat-square">
+<img alt="Opik" src="https://img.shields.io/badge/Opik-3267E5?style=flat-square">
 <img alt="Langfuse" src="https://img.shields.io/badge/Langfuse-0A0A0A?style=flat-square">
 
 **Models** &nbsp;
