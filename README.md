@@ -103,19 +103,6 @@ Agents earn their extra latency and cost only on multi-part, context-dependent q
 
 ---
 
-### 📊 GitHub in numbers
-
-<p align="center">
-  <img height="165" alt="Etienne's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=abiotov&show_icons=true&hide_border=true&count_private=true&theme=default#gh-light-mode-only">
-  <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abiotov&layout=compact&hide_border=true&langs_count=8&theme=default#gh-light-mode-only">
-</p>
-<p align="center">
-  <img height="165" alt="Etienne's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=abiotov&show_icons=true&hide_border=true&count_private=true&theme=tokyonight#gh-dark-mode-only">
-  <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abiotov&layout=compact&hide_border=true&langs_count=8&theme=tokyonight#gh-dark-mode-only">
-</p>
-
----
-
 ### 💬 Let's build
 
 I like talking about **AI agents, agentic search and RAG, orchestration, and evaluation**. Happy to pair, review, or think through a hard problem, and open to collaborating on open-source agentic AI or with teams building agentic products.
