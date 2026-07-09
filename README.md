@@ -20,23 +20,24 @@
 
 ### 👋 About
 
-I build **AI agents and multi-agent systems**: LLMs wired to real tools, memory, and retrieval so they can plan, act, and get useful work done. Most of my effort goes into the engineering around the model (orchestration, retrieval, evaluation, and guardrails) because that is what turns a good demo into something people can rely on.
+I'm an Agentic AI engineer. I build **AI agents and multi-agent systems**: LLMs wired to real tools, memory, and retrieval so they can plan, act, and get useful work done.
+
+Before agents, I shipped search and applied NLP systems (real-time retrieval, summarization, translation, Q&A). That production experience shapes how I build today: most of my effort goes into the engineering **around** the model (orchestration, retrieval, evaluation, guardrails) because that is what turns a good demo into something people can rely on.
 
 > The demo is the easy part. An agent that is reliable, evaluated, and safe in production is the real work.
 
 ---
 
-### 🧠 What I work on
+### 🔭 Current focus
 
-- 🤖 **AI agents and multi-agent systems**: planning, tool and function calling, routing, and human-in-the-loop.
-- 🔎 **Agentic search and agentic RAG**: query planning, hybrid retrieval, reranking, and a validation loop instead of retrieve-once-and-hope.
-- 🧩 **LLM orchestration**: composing tools, state, and memory into workflows that hold up outside a notebook.
+- 🤖 **Multi-agent orchestration**: planning, tool and function calling, routing, state, and human-in-the-loop.
+- 🔎 **Agentic search and agentic RAG**: query planning, hybrid retrieval, reranking, and validation loops instead of retrieve-once-and-hope.
 - 📊 **Evaluation and reliability**: eval suites, tracing, guardrails, and cost control treated as part of the build, not an afterthought.
-- 🌍 **Generative AI for real users**: turning research ideas into products people actually use.
+- 🌱 **Open source**: building and contributing in the agents, retrieval, and evals ecosystem.
 
 ---
 
-### 🧩 What I've built
+### 🧩 Track record
 
 - **Real-time retrieval for search**: low-latency retrieval and candidate generation over large corpora, with hybrid dense and sparse search.
 - **Summarization**: abstractive and long-document summarization, including map-reduce pipelines for long inputs.
