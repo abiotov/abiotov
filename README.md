@@ -20,7 +20,7 @@
 
 ### 👋 About
 
-I'm an Agentic AI engineer with ~3 years designing and shipping **LLM systems that run in production under real traffic**: agentic RAG with verified citations, real-time voice agents, and resilient multi-provider infrastructure.
+I'm an Agentic AI engineer. I design and ship **LLM systems that run in production under real traffic**: agentic RAG with verified citations, real-time voice agents, and resilient multi-provider infrastructure.
 
 Most of my effort goes into the engineering **around** the model (orchestration, retrieval, evaluation, observability) because that is what turns a good demo into something people rely on. I started in IT security, and it shows in how I build: failure modes and guardrails come first.
 
