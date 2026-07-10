@@ -3,11 +3,11 @@
 <h1 align="center">Etienne Tov</h1>
 
 <p align="center">
-  <b>Agentic AI Engineer</b>, building AI agents that do real work
+  <b>Agentic AI Engineer</b>, building AI agents that do real work in production
 </p>
 
 <p align="center">
-  <img alt="Focus areas" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=3000&pause=900&center=true&vCenter=true&width=640&color=2F81F7&lines=AI+Agents+%26+Multi-Agent+Systems;Agentic+Search+%26+Agentic+RAG;LLM+Orchestration+%2B+Tool+Use;Generative+AI%2C+shipped+and+evaluated">
+  <img alt="Focus areas" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=3000&pause=900&center=true&vCenter=true&width=640&color=2F81F7&lines=AI+Agents+%26+Multi-Agent+Systems;Agentic+Search+%26+Agentic+RAG;Real-Time+Voice+Agents;LLM+Evaluation+%26+Observability">
 </p>
 
 <p align="center">
@@ -20,11 +20,22 @@
 
 ### 👋 About
 
-I'm an Agentic AI engineer. I build **AI agents and multi-agent systems**: LLMs wired to real tools, memory, and retrieval so they can plan, act, and get useful work done.
+I'm an Agentic AI engineer with ~3 years designing and shipping **LLM systems that run in production under real traffic**: agentic RAG with verified citations, real-time voice agents, and resilient multi-provider infrastructure.
 
-Before agents, I shipped search and applied NLP systems (real-time retrieval, summarization, translation, Q&A). That production experience shapes how I build today: most of my effort goes into the engineering **around** the model (orchestration, retrieval, evaluation, guardrails) because that is what turns a good demo into something people can rely on.
+Most of my effort goes into the engineering **around** the model (orchestration, retrieval, evaluation, observability) because that is what turns a good demo into something people rely on. I started in IT security, and it shows in how I build: failure modes and guardrails come first.
 
 > The demo is the easy part. An agent that is reliable, evaluated, and safe in production is the real work.
+
+---
+
+### 🧩 Track record
+
+- **Agentic RAG in production**: multi-mode agent orchestration with parallel retrieval and structured citations, serving real users daily.
+- **Citation verification (anti-hallucination)**: every reference checked for existence, accuracy, and validity before display; anything unverifiable is neutralized before it reaches the user.
+- **Hybrid retrieval at scale**: vector + keyword + reranking over 30,000+ domain documents, search latency cut 5x.
+- **Real-time voice agents**: a multi-tenant conversational voice platform (WebRTC, interruption handling), in pilot with a major bank.
+- **Continuous evaluation**: LLM-as-judge on self-hosted Opik, catching quality regressions before every release.
+- **Performance engineering**: critical production endpoints taken from 90 s to 1.9 s response time.
 
 ---
 
@@ -37,18 +48,9 @@ Before agents, I shipped search and applied NLP systems (real-time retrieval, su
 
 ---
 
-### 🧩 Track record
-
-- **Real-time retrieval for search**: low-latency retrieval and candidate generation over large corpora, with hybrid dense and sparse search.
-- **Summarization**: abstractive and long-document summarization, including map-reduce pipelines for long inputs.
-- **Machine translation**: neural and LLM-based translation, with domain adaptation.
-- **Question answering**: RAG and extractive Q&A over documents and knowledge bases, with retrieval, reranking, and grounded citations.
-
----
-
 ### ⚙️ How I build agentic retrieval
 
-`Plan the query` → `route to the right source` → `hybrid retrieval (dense + keyword)` → `rerank` → `validate, and retry if needed` → `answer with citations`
+`Plan the query` → `route to the right source` → `hybrid retrieval (dense + keyword)` → `rerank` → `validate, and retry if needed` → `answer with verified citations`
 
 Agents earn their extra latency and cost only on multi-part, context-dependent questions. When a single call is enough, I keep it simple.
 
@@ -59,38 +61,41 @@ Agents earn their extra latency and cost only on multi-part, context-dependent q
 **Agents & orchestration** &nbsp;
 <img alt="LangGraph" src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white">
 <img alt="LangChain" src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white">
-<img alt="CrewAI" src="https://img.shields.io/badge/CrewAI-FF5A50?style=flat-square">
-<img alt="AutoGen" src="https://img.shields.io/badge/AutoGen-0078D4?style=flat-square">
-<img alt="LlamaIndex" src="https://img.shields.io/badge/LlamaIndex-3A3A3A?style=flat-square">
+<img alt="LiteLLM" src="https://img.shields.io/badge/LiteLLM-2E5BFF?style=flat-square">
+<img alt="Tool calling" src="https://img.shields.io/badge/Tool%20%2F%20Function%20Calling-5A5A5A?style=flat-square">
 
-**Retrieval & memory** &nbsp;
-<img alt="RAG" src="https://img.shields.io/badge/RAG%20%2F%20Agentic%20RAG-4B8BBE?style=flat-square">
-<img alt="Pinecone" src="https://img.shields.io/badge/Pinecone-000000?style=flat-square&logo=pinecone&logoColor=white">
-<img alt="pgvector" src="https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white">
-<img alt="Chroma" src="https://img.shields.io/badge/Chroma-FF6F61?style=flat-square">
-<img alt="FAISS" src="https://img.shields.io/badge/FAISS-0467DF?style=flat-square">
+**Retrieval & RAG** &nbsp;
+<img alt="Qdrant" src="https://img.shields.io/badge/Qdrant-DC244C?style=flat-square">
+<img alt="Hybrid search" src="https://img.shields.io/badge/Hybrid%20Search%20(BM25%20%2B%20RRF)-4B8BBE?style=flat-square">
+<img alt="Cohere Rerank" src="https://img.shields.io/badge/Cohere%20Rerank-39594D?style=flat-square">
+<img alt="Embeddings" src="https://img.shields.io/badge/Embeddings-6C3EF5?style=flat-square">
 
-**Protocols & tools** &nbsp;
-<img alt="Model Context Protocol" src="https://img.shields.io/badge/Model%20Context%20Protocol%20(MCP)-000000?style=flat-square">
-<img alt="Function calling" src="https://img.shields.io/badge/Function%20%2F%20Tool%20Calling-5A5A5A?style=flat-square">
+**Voice AI** &nbsp;
+<img alt="LiveKit" src="https://img.shields.io/badge/LiveKit-FF4F00?style=flat-square">
+<img alt="Deepgram" src="https://img.shields.io/badge/Deepgram-13EF93?style=flat-square&logoColor=black">
+<img alt="WebRTC" src="https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white">
+<img alt="ElevenLabs" src="https://img.shields.io/badge/ElevenLabs-000000?style=flat-square">
 
 **Evals & observability** &nbsp;
-<img alt="LangSmith" src="https://img.shields.io/badge/LangSmith-1C3C3C?style=flat-square">
 <img alt="Opik" src="https://img.shields.io/badge/Opik-3267E5?style=flat-square">
-<img alt="Langfuse" src="https://img.shields.io/badge/Langfuse-0A0A0A?style=flat-square">
+<img alt="LangSmith" src="https://img.shields.io/badge/LangSmith-1C3C3C?style=flat-square">
+<img alt="LLM-as-judge" src="https://img.shields.io/badge/LLM--as--judge-8250DF?style=flat-square">
 
 **Models** &nbsp;
 <img alt="OpenAI" src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white">
 <img alt="Claude" src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white">
 <img alt="Gemini" src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white">
-<img alt="Ollama" src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white">
 <img alt="Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black">
 
-**Core** &nbsp;
+**Backend & data** &nbsp;
 <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
 <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white">
+<img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
+<img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white">
+<img alt="Redis" src="https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white">
+<img alt="Neo4j" src="https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white">
+<img alt="Airflow" src="https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white">
 <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
-<img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
 <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black">
 
 ---
@@ -98,7 +103,7 @@ Agents earn their extra latency and cost only on multi-part, context-dependent q
 ### 🧭 How I work
 
 - **Reliability first**: correctness, observability, and failure modes before features.
-- **Evaluation as infrastructure**: checks that gate a change, not a one-off accuracy number.
+- **Evaluation as infrastructure**: checks that gate a release, not a one-off accuracy number.
 - **Right-sized systems**: reach for agents when the problem needs them, not by default.
 - **Safety by default**: guardrails, careful data handling, and responsible release.
 
@@ -106,7 +111,7 @@ Agents earn their extra latency and cost only on multi-part, context-dependent q
 
 ### 💬 Let's build
 
-I like talking about **AI agents, agentic search and RAG, orchestration, and evaluation**. Happy to pair, review, or think through a hard problem, and open to collaborating on open-source agentic AI or with teams building agentic products.
+I like talking about **AI agents, agentic search and RAG, voice agents, and evaluation**. Happy to pair, review, or think through a hard problem, and open to collaborating on open-source agentic AI or with teams building agentic products.
 
 <p align="center">
   <a href="https://www.linkedin.com/in/etiennetovi"><img alt="Reach out on LinkedIn" src="https://img.shields.io/badge/Reach%20out-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
