@@ -71,10 +71,12 @@ Agents earn their extra latency and cost only on multi-part, context-dependent q
 <img alt="Embeddings" src="https://img.shields.io/badge/Embeddings-6C3EF5?style=flat-square">
 
 **Voice AI** &nbsp;
-<img alt="LiveKit" src="https://img.shields.io/badge/LiveKit-FF4F00?style=flat-square">
+<img alt="LiveKit Agents" src="https://img.shields.io/badge/LiveKit%20Agents-FF4F00?style=flat-square">
 <img alt="Deepgram" src="https://img.shields.io/badge/Deepgram-13EF93?style=flat-square&logoColor=black">
-<img alt="WebRTC" src="https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white">
+<img alt="Cartesia" src="https://img.shields.io/badge/Cartesia-1A1A2E?style=flat-square">
 <img alt="ElevenLabs" src="https://img.shields.io/badge/ElevenLabs-000000?style=flat-square">
+<img alt="Twilio SIP" src="https://img.shields.io/badge/Twilio%20SIP-F22F46?style=flat-square&logo=twilio&logoColor=white">
+<img alt="WebRTC" src="https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white">
 
 **Evals & observability** &nbsp;
 <img alt="Opik" src="https://img.shields.io/badge/Opik-3267E5?style=flat-square">
@@ -97,6 +99,7 @@ Agents earn their extra latency and cost only on multi-part, context-dependent q
 <img alt="Airflow" src="https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white">
 <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
 <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black">
+<img alt="pytest" src="https://img.shields.io/badge/pytest%20%2B%20CI-0A9EDC?style=flat-square&logo=pytest&logoColor=white">
 
 ---
 
